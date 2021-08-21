@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[37,)"
+issueTrackerURL = "https://github.com/ZeithComms/CampfireHardcore/issues"
+license = "All rights reserved"
+[[mods]]
+modId = "campfirehardcore"
+version = "${file.jarVersion}"
+displayName = "Campfire Hardcore"
+updateJSONURL = "http://dccg.herokuapp.com/api/fmluc/518357"
+displayURL = "http://dccg.herokuapp.com/api/fmlhp/518357"
+authors = "Zeitheron"
+description = '''
+Ever feel that respawning is a bit too easy? Want to make it a little bit more challenging, especially in multiplayer?
+Then look no further, this mod is exactly what you need!
+Campfire Hardcore modifies the spawning mechanism of vanilla minecraft in a way, that makes campfires crucial to surviving the deadly world.
+With this mod installed, you get a new block, Settlement Starter, it is similar to a normal campfire, yet when clicking on it, you now have a respawn point near it.
+This is safe until you account for other players. Or creepers. When the campfire is destroyed, or extinguished, it will no longer work, and if you die while not having a working campfire, you can scratch the survival as you'll be respawned in a spectator mode, which can let you see everything you've done so far.
+Have fun!
+'''
+[[dependencies.campfirehardcore]]
+modId = "forge"
+mandatory = true
+versionRange = "[37,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.campfirehardcore]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.17,)"
+ordering = "NONE"
+side = "BOTH"
